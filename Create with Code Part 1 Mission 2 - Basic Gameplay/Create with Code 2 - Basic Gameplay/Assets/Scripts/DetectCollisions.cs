@@ -13,7 +13,7 @@ public class DetectCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
     void OnTriggerEnter (Collider other)
     {Destroy(gameObject);
