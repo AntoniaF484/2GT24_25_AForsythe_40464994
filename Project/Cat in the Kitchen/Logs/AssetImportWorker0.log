@@ -521,3 +521,23 @@ Start importing Assets/Materials/Blue.mat using Guid(37f10779a59f546e89786d4c88c
  -> (artifact id: '0f6a84bd32cddc524a13ab8bd5a2fb59') in 0.562428 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 626.649514 seconds.
+  path: Assets/Materials/Yellow.mat
+  artifactKey: Guid(1861be676e2254e708e72973b178f006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow.mat using Guid(1861be676e2254e708e72973b178f006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'debf7359a71c120d7237d74624a7bce9') in 0.029932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.871816 seconds.
+  path: Assets/Materials/Pink.mat
+  artifactKey: Guid(79e0f6a198f3c4cd8b3eea667e4dad57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pink.mat using Guid(79e0f6a198f3c4cd8b3eea667e4dad57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b7979a3e970c88326ae9c43eacf0b40b') in 0.039193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
