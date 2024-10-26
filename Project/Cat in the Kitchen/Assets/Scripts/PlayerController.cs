@@ -6,8 +6,9 @@ public class PlayerController : MonoBehaviour
 {
   private Rigidbody playerRb;
   public float jumpForce;
-
   public float gravityModifier;
+  public float horizontalInput;
+  public float speed = 10.0f;
   
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,8 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
-      //  if (Input.GetKeyDown(KeyCode.RightArrow))
+      horizontalInput = Input.GetAxis("Horizontal");
+      transform.Translate(Vector3.right*horizontalInput*Time.deltaTime*speed);
             
     }
 }
