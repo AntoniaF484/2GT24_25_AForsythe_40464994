@@ -11,7 +11,7 @@ public class SpawnManager_Path1 : MonoBehaviour
   private float spawnRangeY = 5f;
   private float startPosY = 10f;
   private float startDelay = 0.75f;
-  private float spawnInterval = 0.5f;
+  private float spawnInterval = 0.8f;
 
   private List<GameObject> spawnedPath = new List<GameObject>();
 
