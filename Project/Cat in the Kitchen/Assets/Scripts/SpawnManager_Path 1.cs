@@ -9,8 +9,8 @@ public class SpawnManager_Path1 : MonoBehaviour
   
   private float spawnRangeY = 5f;
   private float startPosY = 10f;
-  private float startDelay = 2;
-  private float spawnInterval = 1.5f;
+  private float startDelay = 0.75f;
+  private float spawnInterval = 0.5f;
 
   
 
@@ -22,11 +22,7 @@ public class SpawnManager_Path1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnRandomPath();
-          
-        }
+      
     }
 
     void SpawnRandomPath()

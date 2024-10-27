@@ -11,8 +11,8 @@ private float spawnRangeX = 7f;
 private float startPosX = 20f;
 private float spawnRangeY = 7f;
 private float startPosY = 30f;
-private float startDelay = 2;
-public float spawnInterval = 1.5f;
+private float startDelay = 0.2f;
+private float spawnInterval= 0.6f;
 
   
 
