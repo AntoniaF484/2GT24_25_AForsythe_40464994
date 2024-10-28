@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 **/PackageCache/**
+/Project/Cat in the Kitchen/Logs
+/Project/Cat in the Kitchen/Logs
